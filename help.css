@@ -1,0 +1,119 @@
+nav {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    
+    justify-content: space-between;
+}
+h1{
+    color: white;
+}
+nav div {
+  width: 70%;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+nav input {
+    flex-grow: 1;
+    color: rgba(255, 255, 255, 0.2);
+    
+}
+nav input, nav button{
+    background-color: rgba(38, 38, 38, 1);
+    padding: 8px 10px;
+    border-radius: 10px;
+}
+nav button{
+    color: white;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+}
+.header-section{
+    background-color: rgba(38, 38, 38, 1);
+    padding:10px;
+    margin: 50px;
+    border-radius: 10px;
+}
+.small-img {
+    width: 50px;
+}
+.big-img {
+    width: 120px;
+}
+.left-side > .item{
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+    align-items: center;
+}
+.right-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.right-side button{
+    background-color: rgba(254, 203, 3, 1);
+    height: 30px;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 0;
+}
+.card-selc {
+    margin: 20px 50px;
+    
+}
+
+.card-container{
+   
+    margin-top: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0 20px 0;
+    justify-content: space-evenly;
+     
+}
+.card {
+    color: rgba(255, 255, 255, 0.8);
+    width: 25%;
+    border: 2px solid rgba(38, 38, 38, 1);
+    margin: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    position: relative;
+    padding-bottom: 30px;
+}
+.card > button{
+    color: rgba(38, 38, 38, 1);
+    background-color:rgba(254, 203, 3, 1);
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 10px;
+}
+.card > p{
+    
+    padding: 10px;
+}
+.foot {
+    display: flex;
+    background-color: rgba(38, 38, 38, 1);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    justify-content:space-evenly;
+    gap: 40px;
+}
+.footer-2  a , .footer-3  a {
+    text-decoration: none;
+    display: flex;
+    color:rgba(255, 255, 255, 0.8)
+    
+}
+.footer-1{
+    width: 60%;
+}
